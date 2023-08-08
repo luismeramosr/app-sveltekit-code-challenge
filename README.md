@@ -19,8 +19,7 @@ La eliminación debe ser lógica, solo se debe modificar un booleano para indica
 del registro (true = Activo, false = Inactivo).
 
 **Mockup**
-![Screenshot 2023-07-24 111910](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/ac0a0143-e9cb-402f-9d7b-3fce65ad2218)
-
+![Screenshot_20230807_201405](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/66d70290-bec2-4dcc-b981-0e2322402c25)
 
 **Ejemplos de usuarios**: 
 
