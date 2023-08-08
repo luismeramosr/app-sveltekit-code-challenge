@@ -45,35 +45,9 @@ del registro (true = Activo, false = Inactivo).
 # TechStack
 
 <ol>
-  <li>SvelteKit</li> 
+  <li>SvelteKit</li>
+  <li>Typescript</li>
 </ol>
-
-# Opcional
-
-
-<ol>
-  <li>Validación de formulario al momento de agregar / editar
-usuarios. Por ejemplo: username requerido / password requerido + longitud mínima 10 caracteres.</li>
-  <li>Mostrar errores personalizados (crear un componente Error con animaciones)</li>
-</ol>
-
-# Solución
-
-**Crear un fork del repo**
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/1ac756aa-2463-486e-8c98-e08697621462)
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/fb485c1e-da23-40a2-9282-3ad73539aefe)
-
-**Clonar el fork**
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/10dd73bb-3b33-4aa2-b1fa-9e6fbf725087)
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/ec14563e-0476-48b9-beeb-1ecb87e27f0e)
-      
-**Completar tu solución**
-
-**Subir tu solución**
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/d1e48509-208e-43d8-bddc-849c51e722c0)
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/2fa8427b-62ec-43b9-8470-eb5fdae5173d)
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/101f40d0-b450-4a8e-8289-c6d1f59d1e90)
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/2aa984a4-a9bd-4d75-bc26-1b556ba14766)
       ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/f7309059-be21-4ef6-b7cf-3f767cf9eb92)
 
 
