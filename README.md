@@ -1,53 +1,38 @@
-# Code challenge 🚀
+# create-svelte
 
-Nuestro code challenge consiste en una prueba sencilla para conocerte mejor como ingeniero de software 😀.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-**Nota:** No olvidar que la forma correcta de subir tu solución es creando un Fork de este repo y enviando un Pull Request.
-Al final hay una breve guía para envíar tu solución.
+## Creating a project
 
--   [Problema](#problema)
--   [Tech Stack](#techstack)
--   [Opcional](#opcional)
--   [Envía tu solucion](#solución)
+If you're seeing this, you've probably already done this step. Congrats!
 
-# Problema
-Se quiere gestionar a los usuarios de un sistema, tu solución debe permitir
-que un administrador pueda **Agregar**, **Listar**, **Editar** y **Eliminar** usuarios.
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-Para fines de este caso basta con persistir a los usuarios en local storage o en memoria.
-La eliminación debe ser lógica, solo se debe modificar un booleano para indicar el estado
-del registro (true = Activo, false = Inactivo).
-
-**Mockup**
-![Screenshot_20230807_201405](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/66d70290-bec2-4dcc-b981-0e2322402c25)
-
-**Ejemplos de usuarios**: 
-
-```json
-{
-    "user_id": 1,
-    "username": "SunTzu",
-    "password": "123456",
-    "active": true
-}
+# create a new project in my-app
+npm create svelte@latest my-app
 ```
 
-```json
-{
-    "user_id": 2,
-    "username": "Kaizen",
-    "password": "123456",
-    "active": false
-}
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-# TechStack
+## Building
 
-<ol>
-  <li>SvelteKit</li>
-  <li>Typescript</li>
-</ol>
-      ![image](https://github.com/luismeramosr/app-sveltekit-code-challenge/assets/41213455/f7309059-be21-4ef6-b7cf-3f767cf9eb92)
+To create a production version of your app:
 
+```bash
+npm run build
+```
 
+You can preview the production build with `npm run preview`.
 
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
