@@ -1,0 +1,53 @@
+{
+  "name": "appcodechallenge",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "lint": "prettier --plugin-search-dir . --check .",
+    "format": "prettier --plugin-search-dir . --write ."
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "@tailwindcss/forms": "^0.5.4",
+    "@types/cookie": "^0.5.1",
+    "@types/jquery": "^3.5.16",
+    "autoprefixer": "^10.4.14",
+    "highlight.js": "^11.8.0",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
+    "stwui": "^0.17.2-next",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "svelte": "./package/index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@floating-ui/dom": "^1.4.5",
+    "color": "^4.2.3",
+    "dayjs": "^1.11.9",
+    "nanoid": "^4.0.2",
+    "randomcolor": "^0.6.2",
+    "svelte-forms": "^2.3.1",
+    "svelte-forms-lib": "^2.0.1",
+    "svelte-use-form": "^2.9.0",
+    "tailwind-merge": "^1.14.0",
+    "tippy.js": "^6.3.7",
+    "yup": "^1.2.0"
+  },
+  "peerDependencies": {
+    "@sveltejs/kit": "^1.21.0",
+    "svelte": "^4.0.1"
+  }
+}
